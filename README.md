@@ -67,6 +67,20 @@ localhost:8000
 ```
 to double check if the backend is up and running.
 
+## Usage
+To run the server start virtualenv
+```
+virtualenv env
+```
+then outside of the project run
+```
+. env\scripts\activate
+```
+after, go back into the project's main directory and run
+```
+python manage.py runserver
+```
+
 ## Notes
 If you have different versions of python installed remember to use
 ```
